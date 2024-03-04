@@ -1,0 +1,71 @@
+.nextsection{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    
+}
+.nxtsec{
+    width: 80%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    row-gap: 5%;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right:5% ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+.drops{
+    background-color: white;
+    line-height: 40px;
+    max-width: fit-content;
+}
+.drops >h3{
+    background-color:white ;
+    color: rgb(185, 183, 183);
+    text-transform: capitalize;
+    font-size: 22px;
+    font-family: Space Grotesk;
+}
+.drops > select{
+    background-color: white;
+    border: none;
+    outline: none;
+    font-family: Space Grotesk;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0F298B;
+    text-transform: capitalize;
+}
+.searchbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    height: 30px;
+    padding: 2%;
+    text-align: center;
+    background-color: #2549D3;
+    border-radius: 8px;
+}
+.searchbtn > img{
+    background-color: #2549D3;
+    display: flex;
+    height: 20px;
+    width: 100%;
+}
+.searchbtn > button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #2549D3;
+    font-size: 20px;
+    font-family: Space Grotesk;
+    text-transform: capitalize;
+}

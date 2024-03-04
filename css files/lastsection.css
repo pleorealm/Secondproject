@@ -1,0 +1,47 @@
+.lastsection {
+    display: flex;
+    padding-left: 10%;
+    align-items: center;
+    
+ 
+}
+.lastimage{
+   margin-left: 10%;
+   margin-top: 10%;
+}
+.lastimage >img{
+    border-top-right-radius:8em;
+    border-bottom-left-radius:8em;
+   
+  
+
+
+    
+    
+}
+.lasttext {
+    margin-left: 200px; 
+}
+.lasttext > h1{
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#0F298B;
+
+    
+}
+.lasttext > h2{
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 3%;
+    max-width: 30em;
+
+}
+
