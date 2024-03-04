@@ -1,5 +1,6 @@
 .hero{
     display: flex;
+    flex-direction: row;
     padding-left: 10%;
     padding-right:5%;
     padding-top: 10%;
@@ -21,6 +22,7 @@
     color: #0F298B;
     max-width: 95%;
     padding-bottom: 3%;
+    text-overflow: clip;
 }
 .herotext >h2{
     font-family: Space Grotesk;
@@ -29,6 +31,7 @@
     line-height: 41px;
     letter-spacing: 0em;
     text-align: left;
+    text-overflow: clip;
 }
 .herobtn{
     display: flex;
