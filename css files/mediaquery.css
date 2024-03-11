@@ -3,6 +3,8 @@
   .navbar{
     padding-left: 5% !important;
     padding-right: 5% !important;
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
   }
   .navlinks{
     display:  none !important;
@@ -12,6 +14,13 @@
   }
   .logo{
     font-size: 25px !important;
+  }
+  .menu{
+    display: block !important;
+    font-size: 20px !important;
+  }
+  .menubtn >button{
+    display: block !important;
   }
   .hero{
     display: flex;
@@ -39,6 +48,385 @@
   .heroimg >img{
     border-top-right-radius:5em !important;
     border-bottom-left-radius:5em !important;
+}
+ .nextsection{
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+ .nxtsec{
+  flex-direction: column;
+  max-width: 100% !important;
+  border-radius: 10px !important;
+  padding-left: 5% !important;
+  padding-right:5% !important;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+}
+ .drops{
+  line-height: 20px !important;
+}
+ .drops > h3{
+  font-size: 11px !important;
+  margin-left: 5% !important;
+}
+ .drops > select {
+  display: flex !important;
+  padding-top: 5% !important;
+  width: 100% !important;
+  font-size: 12px !important;
+  font-weight: 350px !important;
+  line-height: 10px !important;
+}
+.searchbtn{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0% !important;
+  height: 30px !important;
+  padding-top: 3% !important;
+  text-align: center !important;
+  background-color: #2549D3 !important;
+  border-radius: 8px !important;
+}
+.searchbtn > img{
+ display: none !important;
+  
+}
+.searchbtn > button{
+  border: none !important;
+  outline: none !important;
+  color: white !important;
+  background-color: #2549D3 !important;
+  font-size: 20px !important;
+  font-family: Space Grotesk !important;
+  text-transform: capitalize !important;
+  display: flex !important;
+  text-align: center !important;
+  justify-content: center;
+}
+
+
+/* middle section */
+.headtext{
+  color:#0F298B;
+  text-transform: capitalize;
+  justify-content: center;
+  font-family: Space Grotesk;
+  font-size: 25px !important;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center !important;
+  padding-bottom: 15px;
+
+
+}
+.headtext2{
+  color:  #000000CF;
+  justify-content: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  height: 29.32px;
+  display: flex !important;
+  justify-content: center !important;
+
+}
+.middlesection{
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-between;
+  padding: 30px; 
+  gap: 2em;
+  margin-top: 3%;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0;
+  margin-top: 0;
+  max-width: 100%;
+
+}
+
+
+.middleitem{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1%;
+  max-width: 400px;
+  margin-top: 4%;
+}
+.middleimg >img{
+  max-width: 100%;
+}
+.middletext> h1{
+  font-family: Space Grotesk;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  display: flex;
+  justify-content: center;
+  text-overflow: clip;
+}
+
+.middletext > h2{
+  font-family: Space Grotesk;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-overflow: clip;
+  
+}
+.imagesection> img{
+  gap: 10%;
+}
+
+.lastsection {
+  display: flex;
+  flex-direction: column !important;
+  padding-left: 5% !important;
+  align-items: center;
+  padding-right: 5% !important;  
+  width: 100%;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 5% !important;
+}
+.lastimage{
+  width: 100% !important;
+}
+.lastimage >img{
+  border-top-right-radius:1em !important;
+  border-bottom-left-radius:1em !important;
+  width: 100% ;   
+}
+.lasttext{
+  width: 100% !important;
+}
+.lasttext > h1{
+  font-family: Space Grotesk;
+  font-size: 25px !important;
+  font-weight: 500;
+  line-height: 27px !important;
+  letter-spacing: 0em;
+  text-align: left;
+  color:#0F298B;  
+  text-overflow:clip;
+}
+.lasttext > h2{
+  font-family: Space Grotesk;
+  font-size: 17px !important;
+  font-weight: 400;
+  line-height: 20px !important;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 5%;
+  max-width: 100% !important;
+  text-overflow:clip;
+}
+
+  /* partsection */
+.partsection{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.parttext{
+    color:#0F298B;
+    text-transform: capitalize;
+    justify-content: center !important;
+    font-family: Space Grotesk;
+    font-size: 14px !important;
+    line-height: 32px;
+    font-weight: 400px !important;
+    text-align: center !important;
+}
+.parttext2{
+    font-family: Space Grotesk;
+    font-size: 18px !important;
+    font-weight: 350 !important;
+    line-height: 30px;
+    text-align: center !important;
+    max-width: 38em !important;
+    margin-left: 5% !important;
+    margin-top: 1% !important;    
+}
+.btton{
+    justify-content: center !important;
+    margin-top: 3% !important;
+      
+}
+/* partimage */
+.partimage{
+  justify-content: space-between !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-top: 25px !important;
+}
+
+.partimg > img{
+  width: 100% !important;
+  border-top-right-radius: 5em !important;
+  border-bottom-left-radius: 5em !important;
+  padding-top: 10% !important;
+}
+.imagestext{
+  display: flex;
+  justify-content: space-between !important;
+  padding-top: 10px !important;
+  text-align: center !important;
+  text-overflow: clip !important;
+  
+}
+.imagetext1 > h1{
+  font-family: Space Grotesk;
+  font-size: 20px !important;
+  line-height: 9px;
+ 
+}
+.imagetext1 >h2{
+  font-family: Space Grotesk;
+  font-size: 15px !important;
+  line-height: 25px !important;
+}
+.imagetext2 >h1{
+  font-family: Space Grotesk;
+  font-size: 20px !important;
+  line-height: 9px;
+
+}
+.imagetext2 >h2{
+  font-family: Space Grotesk;
+  font-size: 15px !important;
+  line-height: 25px !important;
+ 
+}
+/* primesection */
+  .primesection{
+    padding-top: 8% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+
+ }
+ .primetext{
+    color:#0F298B;
+    text-transform: capitalize;
+    justify-content: center;
+    padding-top: 50px !important;
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+      
+ 
+}
+.primetext2{
+    color:  #000000CF;
+    justify-content: center;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    height: 29.32px;
+}
+.bton{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-top: 2%;
+  
+  
+}
+.bton >button{
+  background-color: #2549D3;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-family: Space Grotesk;
+}
+/* flexsection */
+.flexsection{
+  justify-content: center !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 5% !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  margin-top: 5% !important;
+  
+}
+.flextext > h1{
+  font-family: Space Grotesk;
+  font-size: 20px !important;
+
+}
+.flextext > h2{
+  font-family: Space Grotesk;
+  font-size: 15px !important;
+  
+}
+.flextext > h3{
+  font-family: Space Grotesk;
+  font-size: 14px !important;
+  word-spacing: 5px !important;
+  
+}
+/* endsection */
+.endsection{
+  justify-content: space-between;
+  display: grid !important;
+  grid-template-columns: 2,1fr;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  margin-top: 10% !important;
+  background-color: #0F298B;
+  margin-bottom: 10% !important;
+  height: auto !important;
+  padding-top: 10% !important;
+  padding-bottom: 20% !important;
+}
+
+.endtext{
+  background-color: #0F298B;
+  grid-column: 2 span;
+}
+.endtext > h1{
+  font-size: 20px !important;
+}
+.endtext > h2{
+font-family: Inter;
+font-size: 15px !important;
+width: 100% !important;
+text-overflow:clip !important;
+
+}
+.endtext2{
+background-color: #0F298B !important;
+}
+.endtext2 >h1{
+font-family: Space Grotesk;
+font-size: 20px !important;
+padding-top: 5% !important;
+}
+.endtext2 > h2{
+  font-family: Nunito !important;
+  font-size: 15px !important;
+  
 }
 }
 
@@ -83,5 +471,369 @@
       .heroimg >img{
         border-top-right-radius:5em !important;
         border-bottom-left-radius:5em !important;
-    }
+
+      }
+      .nextsection{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+      }
+       .nxtsec{
+        max-width: 100% !important;
+        border-radius: 10px !important;
+        padding-left: 5% !important;
+        padding-right:5% !important;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+      }
+       .drops{
+        line-height: 20px !important;
+      }
+       .drops > h3{
+        font-size: 13px !important;
+        margin-left: 5% !important;
+      }
+       .drops > select {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        line-height: 10px !important;
+       
+      }
+      .searchbtn{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 5% !important;
+        height: 30px !important;
+        padding: 2% !important;
+        text-align: center !important;
+        background-color: #2549D3 !important;
+        border-radius: 8px !important;
+      }
+      .searchbtn > img{
+        background-color: #2549D3 !important;
+        display: flex !important;
+        height: 20px !important;
+        width: 100% !important;
+        
+      }
+      .searchbtn > button{
+        border: none !important;
+        outline: none !important;
+        color: white !important;
+        background-color: #2549D3 !important;
+        font-size: 20px !important;
+        font-family: Space Grotesk !important;
+        text-transform: capitalize !important;
+      }
+      /* middle section */
+.headtext{
+  color:#0F298B;
+  text-transform: capitalize;
+  justify-content: center;
+  font-family: Space Grotesk;
+  font-size: 25px !important;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center !important;
+  padding-bottom: 15px;
+
+
+
+}
+.headtext2{
+  color:  #000000CF;
+  justify-content: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  height: 29.32px;
+  display: flex !important;
+  justify-content: center !important;
+
+}
+.middlesection{
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  padding: 30px; 
+  gap: 2em;
+  margin-top: 3%;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0;
+  margin-top: 0;
+  max-width: 100%;
+}
+
+
+.middleitem{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1%;
+  max-width: 400px;
+  margin-top: 4%;
+}
+.middleimg >img{
+  max-width: 100%;
+}
+.middletext> h1{
+  font-family: Space Grotesk;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  display: flex;
+  justify-content: center;
+  text-overflow: clip;
+}
+
+.middletext > h2{
+  font-family: Space Grotesk;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-overflow: clip;
+  
+}
+#rearr{
+ margin: auto !important;
+}
+.imagesection> img{
+  gap: 10%;
+}
+ /* lastsection */
+ .lastsection {
+  display: flex;
+  flex-direction: column !important;
+  padding-left: 5% !important;
+  align-items: center;
+  padding-right: 5% !important;  
+  width: 100%;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 5% !important;
+}
+.lastimage{
+  width: 100% !important;
+}
+.lastimage >img{
+  border-top-right-radius:1em !important;
+  border-bottom-left-radius:1em !important;
+  width: 100% ;   
+}
+.lasttext{
+  width: 100% !important;
+}
+.lasttext > h1{
+  font-family: Space Grotesk;
+  font-size: 45px !important;
+  font-weight: 500;
+  line-height: 30px !important;
+  letter-spacing: 0em;
+  text-align: center !important;
+  color:#0F298B;  
+  text-overflow:clip;
+}
+.lasttext > h2{
+  font-family: Space Grotesk;
+  font-size: 25px !important;
+  font-weight: 400;
+  line-height: 20px !important;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 5%;
+  max-width: 100% !important;
+  text-overflow:clip;
+}
+.sec{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px !important;
+  padding-top: 2%;
+  margin: auto;
+}
+.box >h1{
+  font-size:20px !important;
+}
+
+    /* partsection */
+.partsection{
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+.parttext{
+  color:#0F298B;
+  text-transform: capitalize;
+  justify-content: center !important;
+  font-family: Space Grotesk;
+  font-size: 18px !important;
+  line-height: 32px;
+  font-weight: 400px !important;
+  text-align: center !important;
+}
+.parttext2{
+  font-family: Space Grotesk;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 30px;
+  text-align: center !important;
+  justify-content: center !important;
+  margin-top: 1% !important;   
+  text-overflow: clip !important; 
+}
+.btton{
+  justify-content: center !important;
+  margin-top: 3% !important;
+}
+/* partimage */
+.partimage{
+  justify-content: space-between;
+  display: grid !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  row-gap: 5% !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  
+}
+.partimg > img{
+  width: 100% !important;
+  border-top-right-radius: 5em !important;
+  border-bottom-left-radius: 5em !important;
+}
+.imagestext{
+  display: flex;
+  gap: 5% !important;
+  margin-top: 10px;
+  
+}
+.imagetext1 > h1{
+  font-family: Space Grotesk;
+  font-size: 23px !important;
+}
+.imagetext1 >h2{
+  font-family: Space Grotesk;
+  font-size: 20px !important;
+  margin-top: 10% !important;
+}
+.imagetext2 >h1{
+  font-family: Space Grotesk;
+  font-size: 23px !important;
+}
+.imagetext2 >h2{
+  font-family: Space Grotesk;
+  font-size: 23px !important;
+  margin-top: 20% !important;
+}
+
+/* primesection */
+.primesection{
+  padding-top: 8% !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+
+}
+.primetext{
+  color:#0F298B;
+  text-transform: capitalize;
+  justify-content: center;
+  padding-top: 50px !important;
+  font-family: Space Grotesk;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+    
+
+}
+.primetext2{
+  color:  #000000CF;
+  justify-content: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  height: 29.32px;
+}
+.bton{
+display: flex !important;
+align-items: center !important;
+justify-content: center !important;
+margin-top: 2%;
+
+
+}
+.bton >button{
+background-color: #2549D3;
+width: 150px;
+height: 50px;
+color: white;
+border: none;
+border-radius: 15px;
+font-family: Space Grotesk;
+}
+/* flexsection */
+.flexsection{
+  justify-content: center !important;
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  flex-direction: column !important;
+  gap: 5% !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  margin-top: 5% !important;
+  width: 100% !important;
+}
+.flextext > h3{
+  max-width: 25em !important;
+}
+/* endsection */
+.endsection{
+  justify-content: space-between;
+  display: grid !important;
+  grid-template-columns: 2,1fr;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  margin-top: 10% !important;
+  background-color: #0F298B;
+  margin-bottom: 10% !important;
+  height: auto !important;
+}
+
+.endtext{
+  background-color: #0F298B;
+  grid-column: span 2 ;
+}
+.endtext > h1{
+  font-size: 30px !important;
+}
+.endtext > h2{
+font-family: Inter;
+font-size: 25px !important;
+width: 100% !important;
+text-overflow:clip !important;
+
+}
+.endtext2{
+background-color: #0F298B !important;
+
+}
+.endtext2 >h1{
+font-family: Space Grotesk;
+font-size: 30px !important;
+}
+.endtext2 > h2{
+  font-family: Nunito !important;
+  font-size: 20px !important;
+}
 }

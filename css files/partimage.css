@@ -1,0 +1,55 @@
+.partimage{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+    gap: 5%;
+}
+.partimg > img{
+    width: 100%;
+    border-top-right-radius: 5em;
+    border-bottom-left-radius: 5em;
+}
+.imagestext{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    text-overflow: clip;
+    
+}
+.imagetext1 > h1{
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 9px;
+    text-align: left;    
+    color:  #000000;
+}
+.imagetext1 >h2{
+    font-family: Space Grotesk;
+    font-size: 13px;
+    font-weight: 350;
+    line-height: 9px;
+    text-align: left;
+    margin-top: 10px;
+    color:  #000000;
+}
+.imagetext2 >h1{
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 9px;
+    text-align: left;
+    color:  #000000;
+}
+.imagetext2 >h2{
+    font-family: Space Grotesk;
+    font-size: 13px;
+    font-weight: 350;
+    line-height: 9px;
+    text-align: left;
+    color:#0F298B;
+    margin-top: 10px;
+}
+

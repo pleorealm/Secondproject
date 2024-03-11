@@ -1,27 +1,28 @@
 .nextsection{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0;
     
 }
 .nxtsec{
-    width: 80%;
+    max-width: 100%;
     background-color: white;
-    position: absolute;
     display: flex;
-    row-gap: 5%;
+    row-gap: 3%;
     justify-content: space-between;
     padding-left: 5%;
-    padding-right:5% ;
+    padding-right:5%;
     padding-top: 2%;
     padding-bottom: 2%;
     border-radius: 20px;
+    
 }
 .drops{
     background-color: white;
     line-height: 40px;
-    max-width: fit-content;
+    
+
+   
 }
 .drops >h3{
     background-color:white ;
@@ -37,11 +38,11 @@
     font-family: Space Grotesk;
     font-size: 25px;
     font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0em;
+    line-height: 10px;
     text-align: left;
     color: #0F298B;
     text-transform: capitalize;
+    
 }
 .searchbtn{
     display: flex;

@@ -1,30 +1,37 @@
-.partsection{
-    margin-top: 10%;
-    gap: 7px;
+.primesection{
+    padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
-}
-.parttext{
+ }
+ .primetext{
     color:#0F298B;
     text-transform: capitalize;
     justify-content: center;
+    padding-top: 50px;
     font-family: Space Grotesk;
-    font-size: 18px;
+    font-size: 30px;
+    font-weight: 700;
     line-height: 32px;
-    font-weight: 700px;
+    letter-spacing: 0em;
     text-align: center;
+    
+  
+ 
 }
-.parttext2{
+.primetext2{
+    color:  #000000CF;
+    justify-content: center;
     font-family: Space Grotesk;
     font-size: 20px;
-    font-weight: 350;
-    line-height: 30px;
+    font-weight: 400;
+    line-height: 21px;
     text-align: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 1%;    
+    height: 29.32px;
+   
+
+
 }
-.btton{
+.bton{
     display: flex;
     align-items: center;
     justify-content: right;
@@ -32,7 +39,7 @@
     
     
 }
-.btton >button{
+.bton >button{
     background-color: #2549D3;
     width: 150px;
     height: 50px;
